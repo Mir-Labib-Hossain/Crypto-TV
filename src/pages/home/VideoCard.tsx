@@ -1,12 +1,12 @@
 type Props = {};
 
-const Video = (props: Props) => {
+const VideoCard = (props: Props) => {
   return (
     <div className="col-span-12 sm:col-span-6 md:col-span-3 duration-300 hover:scale-[1.03]">
       <div className="w-full flex flex-col">
         <div className="relative">
           <a href="video.html">
-            <img src="https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg" className="w-full h-auto" alt="Some video title" />
+            <img src="https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg" className="w-full h-auto" alt="Some videoCard title" />
           </a>
 
           <p className="absolute right-2 bottom-2 bg-gray-900 text-gray-100 text-xs px-1 py">12:10</p>
@@ -19,7 +19,7 @@ const Video = (props: Props) => {
 
           <div className="flex flex-col">
             <a href="video.html">
-              <p className="text-slate-900 text-sm font-semibold">Video title</p>
+              <p className="text-slate-900 text-sm font-semibold">VideoCard title</p>
             </a>
             <a className="text-gray-400 text-xs mt-2 hover:text-gray-600" href="#">
               {" "}
@@ -33,4 +33,4 @@ const Video = (props: Props) => {
   );
 };
 
-export default Video;
+export default VideoCard;
