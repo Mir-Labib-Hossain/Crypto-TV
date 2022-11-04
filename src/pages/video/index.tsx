@@ -21,7 +21,7 @@ const Video = () => {
               <VideoPlayer link={link} title={title} />
               <Details title={title} date={date} description={description} likes={likes} unlikes={unlikes} />
             </div>
-            <RelatedVideos />
+            <RelatedVideos id={id} tags={tags} />
           </div>
         </div>
       </section>
