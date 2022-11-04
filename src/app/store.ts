@@ -1,8 +1,9 @@
 import { Action, configureStore, ThunkAction } from "@reduxjs/toolkit";
+import filterReducer from "../features/filterSlice";
 import { baseApiSlice } from "./api/baseApiSlice";
-
 export const store = configureStore({
   reducer: {
+    filter: filterReducer,
     [baseApiSlice.reducerPath]: baseApiSlice.reducer,
   },
 });
