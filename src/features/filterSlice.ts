@@ -22,7 +22,12 @@ const filterSlice = createSlice({
       const indexToRemove = state.selectedTags.indexOf(payload);
       if (indexToRemove !== -1) state.selectedTags.splice(indexToRemove, 1);
     },
+
+    search: (state: IInetialState, { payload }: PayloadAction<string>) => {
+      state.searched = payload;
+    },
   },
 });
+
 export default filterSlice.reducer;
-export const { addTag, removeTag } = filterSlice.actions;
+export const { addTag, removeTag, search } = filterSlice.actions;

@@ -11,7 +11,7 @@ const Tags = () => {
       <section>
         <div className="max-w-7xl mx-auto px-5 py-6 lg:px-0 flex gap-2 border-b overflow-y-auto">
           {data.map((tag: ITag) => (
-            <Tag active={selectedTags.includes(tag.title)} title={tag.title} />
+            <Tag active={selectedTags.includes(tag.title)} title={tag.title} key={tag.id} />
           ))}
         </div>
       </section>
