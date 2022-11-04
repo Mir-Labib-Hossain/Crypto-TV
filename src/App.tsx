@@ -5,16 +5,14 @@ import Video from "./pages/video";
 
 const App = () => {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/video" element={<Video />} />
-          </Route>
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/video/:videoId" element={<Video />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 };
 

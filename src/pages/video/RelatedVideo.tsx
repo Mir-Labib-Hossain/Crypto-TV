@@ -2,7 +2,7 @@ type Props = {};
 
 const RelatedVideo = (props: Props) => {
   return (
-    <div className="w-full flex flex-row gap-2 mb-4">
+    <div className="w-full flex flex-row gap-2 items-center mb-4">
       <div className="relative w-[168px] h-[94px] flex-none duration-300 hover:scale-[1.03]">
         <a href="video.html">
           <img src="https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg" className="object-cover" alt="Some video title" />

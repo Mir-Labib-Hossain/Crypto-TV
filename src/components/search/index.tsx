@@ -6,7 +6,7 @@ const Search = (props: Props) => {
       <form>
         <input className="outline-none border-none mr-2" type="search" name="search" placeholder="Search" />
       </form>
-      <img className="inline h-4 cursor-pointer" src="./assets/search.svg" alt="Search" />
+      <i className=" fa-solid fa-magnifying-glass cursor-pointer text-yellow-400"></i>
     </div>
   );
 };
