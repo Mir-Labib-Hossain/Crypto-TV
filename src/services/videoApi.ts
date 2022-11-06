@@ -1,5 +1,10 @@
 import { baseApiSlice } from "../app/api/baseApiSlice";
 
+interface IVideosParams {
+  selectedTags: string[];
+  searched: string;
+}
+
 interface IVideoParams {
   videoId: string;
 }
@@ -12,8 +17,13 @@ interface IRelatedVideosParams {
 const videoApi = baseApiSlice.injectEndpoints({
   endpoints: (build) => ({
     // fetch videos
-    videos: build.query<IVideos, void>({
-      query: () => "/videos",
+    videos: build.query<IVideos, IVideosParams>({
+      query: ({ selectedTags, searched }) => {
+        let query = "";
+        query += selectedTags?.length > 0 && selectedTags.map((tag: string) => `tags_like=${tag}`).join("&");
+        query += searched && `&q=${searched}`;
+        return `/videos?${query}`;
+      },
     }),
 
     // fetch single video
@@ -24,7 +34,7 @@ const videoApi = baseApiSlice.injectEndpoints({
     // fetch related video
     relatedVideos: build.query<IVideos, IRelatedVideosParams>({
       query: ({ videoId, tags }: IRelatedVideosParams) => {
-        const query = tags?.length > 0 && tags.map((tag: string) => `tags_like=${tag}`).join("&") + `&id_ne=${videoId}`;
+        const query = tags?.length > 0 ? tags.map((tag: string) => `tags_like=${tag}`).join("&") + `&id_ne=${videoId}` : "";
         return `/videos?${query}`;
       },
     }),

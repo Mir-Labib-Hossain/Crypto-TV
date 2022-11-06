@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import useNumFormatter from "../../hooks/useNumConverter";
 
 type Props = {
   details: IVideo;
@@ -31,7 +32,7 @@ const VideoCard = ({ details }: Props) => {
             </Link>
             <p className="text-gray-500 text-xs mt-1">
               <i className="fa-solid fa-eye mr-1"></i>
-              {views}
+              { useNumFormatter(views)}
             </p>
           </div>
         </div>

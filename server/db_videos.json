@@ -8,12 +8,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
             "date": "May 10, 2022",
             "duration": "10:12",
-            "views": "2.1k",
+            "views": 1000,
             "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
             "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg",
             "tags": ["javascript", "react", "tips"],
-            "likes": 0,
-            "unlikes": 0
+            "likes": 143,
+            "unlikes": 30
         },
         {
             "id": 2,
@@ -23,12 +23,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
             "date": "April 25, 2022",
             "duration": "10:12",
-            "views": "2.1k",
+            "views": 123312,
             "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
             "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg",
             "tags": ["vscode", "tips"],
-            "likes": 0,
-            "unlikes": 0
+            "likes": 23540,
+            "unlikes": 540
         },
         {
             "id": 3,
@@ -38,12 +38,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
             "date": "March 11, 2022",
             "duration": "10:12",
-            "views": "2.1k",
+            "views": 423423,
             "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
             "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg",
             "tags": ["tailwind", "css"],
-            "likes": 0,
-            "unlikes": 0
+            "likes": 3523,
+            "unlikes": 43
         },
         {
             "id": 4,
@@ -53,12 +53,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
             "date": "Jan 06, 2022",
             "duration": "10:12",
-            "views": "2.1k",
+            "views": 2423440,
             "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
             "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg",
             "tags": ["debounce", "javascript", "tips"],
-            "likes": 0,
-            "unlikes": 0
+            "likes": 23442,
+            "unlikes": 20
         },
         {
             "id": 5,
@@ -68,12 +68,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
             "date": "Nov 22, 2021",
             "duration": "10:12",
-            "views": "2.1k",
+            "views": 2222220,
             "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
             "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg",
             "tags": ["sass", "css", "ui"],
-            "likes": 0,
-            "unlikes": 0
+            "likes": 232350,
+            "unlikes": 235
         },
         {
             "id": 6,
@@ -83,12 +83,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
             "date": "Nov 08, 2021",
             "duration": "10:12",
-            "views": "2.1k",
+            "views": 4230234,
             "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
             "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg",
             "tags": ["react", "router", "javascript"],
-            "likes": 0,
-            "unlikes": 0
+            "likes": 5325,
+            "unlikes": 20
         },
         {
             "id": 7,
@@ -98,11 +98,11 @@
             "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
             "date": "Oct 15, 2021",
             "duration": "10:12",
-            "views": "2.1k",
+            "views": 100,
             "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
             "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
             "tags": ["tailwind", "css", "ui"],
-            "likes": 0,
+            "likes": 10,
             "unlikes": 0
         }
     ],

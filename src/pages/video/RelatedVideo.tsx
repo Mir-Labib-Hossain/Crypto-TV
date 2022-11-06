@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import useNumFormatter from "../../hooks/useNumConverter";
 
 type Props = {
   relatedVideo: IVideo;
@@ -23,7 +24,7 @@ const RelatedVideo = ({ relatedVideo }: Props) => {
           {author}
         </Link>
         <p className="text-gray-400 text-xs mt-1">
-          {views} views . {date}
+          {useNumFormatter(views)} views . {date}
         </p>
       </div>
     </div>

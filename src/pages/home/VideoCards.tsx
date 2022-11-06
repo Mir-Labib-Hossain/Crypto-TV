@@ -1,10 +1,12 @@
+import { useAppSelector } from "../../app/hooks";
 import { useVideosQuery } from "../../services/videoApi";
 import VideoCard from "./VideoCard";
 
 type Props = {};
 
 const VideoCards = (props: Props) => {
-  const { isLoading, data, error } = useVideosQuery();
+  const { selectedTags, searched } = useAppSelector((state) => state.filter);
+  const { isLoading, data, error } = useVideosQuery({ selectedTags, searched });
 
   return (
     <section className="pt-12">

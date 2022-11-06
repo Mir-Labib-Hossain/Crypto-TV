@@ -6,7 +6,7 @@ interface IVideo {
   avatar: string;
   date: string;
   duration: string;
-  views: string;
+  views: number;
   link: string;
   thumbnail: string;
   tags: string[];
