@@ -1,4 +1,3 @@
-import Pagination from "./Pagination";
 import Tags from "./Tags";
 import VideoCards from "./VideoCards";
 
@@ -9,7 +8,6 @@ const Home = (props: Props) => {
     <>
       <Tags />
       <VideoCards />
-      <Pagination />
     </>
   );
 };

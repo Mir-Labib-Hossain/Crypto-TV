@@ -14,7 +14,6 @@ const VideoCard = ({ details }: Props) => {
           <Link to={`/video/${id}`}>
             <img src={thumbnail} className="w-full h-auto" alt="Some videoCard title" />
           </Link>
-
           <p className="absolute right-2 bottom-2 bg-gray-900 text-gray-100 text-xs px-1 py">{date}</p>
         </div>
 
@@ -32,7 +31,7 @@ const VideoCard = ({ details }: Props) => {
             </Link>
             <p className="text-gray-500 text-xs mt-1">
               <i className="fa-solid fa-eye mr-1"></i>
-              { useNumFormatter(views)}
+              {useNumFormatter(views)}
             </p>
           </div>
         </div>

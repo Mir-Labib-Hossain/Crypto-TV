@@ -1,9 +1,10 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./layout";
-import Home from "./pages/home";
-import Video from "./pages/video";
 
 const App = () => {
+  const Home = lazy(() => import("./pages/home"));
+  const Video = lazy(() => import("./pages/video"));
   return (
     <Router>
       <Routes>

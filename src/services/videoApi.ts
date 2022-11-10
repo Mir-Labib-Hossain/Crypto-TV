@@ -22,7 +22,10 @@ const videoApi = baseApiSlice.injectEndpoints({
         let query = "";
         query += selectedTags?.length > 0 && selectedTags.map((tag: string) => `tags_like=${tag}`).join("&");
         query += searched && `&q=${searched}`;
-        return `/videos?${query}`;
+        console.log("Videos api called.");
+        
+        // return `/videos?_limit=8&${query}`;
+        return `/videos?&${query}`;
       },
     }),
 

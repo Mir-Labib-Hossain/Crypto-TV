@@ -1,23 +1,31 @@
+import { useState } from "react";
 import { useAppSelector } from "../../app/hooks";
 import { useVideosQuery } from "../../services/videoApi";
+import Pagination from "./Pagination";
 import VideoCard from "./VideoCard";
 
-type Props = {};
-
-const VideoCards = (props: Props) => {
+const VideoCards = () => {
   const { selectedTags, searched } = useAppSelector((state) => state.filter);
-  const { isLoading, data, error } = useVideosQuery({ selectedTags, searched });
+  const { data } = useVideosQuery({ selectedTags, searched });
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const number = 8; // number to show in a single page
+  const start = currentPage * number - number;
+  const end = currentPage * number;
 
   return (
-    <section className="pt-12">
+    <>
       <section className="pt-12">
-        <div className="grid grid-cols-12 gap-4 max-w-7xl mx-auto px-5 lg:px-0 min-h-[300px]">
-          {data?.map((details: IVideo) => (
-            <VideoCard details={details} key={details.id} />
-          ))}
-        </div>
+        <section className="pt-12">
+          <div className="grid grid-cols-12 gap-4 max-w-7xl mx-auto px-5 lg:px-0 min-h-[300px]">
+            {data?.slice(start, end).map((details: IVideo) => (
+              <VideoCard details={details} key={details.id} />
+            ))}
+          </div>
+        </section>
       </section>
-    </section>
+      {data && data.length > 5 && <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalPage={Math.ceil(data.length / number)} />}
+    </>
   );
 };
 
