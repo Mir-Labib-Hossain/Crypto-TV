@@ -1,11 +1,15 @@
+import { useMatch, useNavigate } from "react-router-dom";
 import { useAppDispatch } from "../../app/hooks";
 import { search } from "../../features/filterSlice";
 import useThrottle from "../../hooks/useThrottle";
 
 const Search = () => {
+  const match = useMatch("/");
+  const navigate = useNavigate();
   const dispatch = useAppDispatch();
 
   const handleChange = useThrottle((inputText: string) => {
+    if (!match) navigate("/");
     dispatch(search(inputText));
     console.log("Fetching : ", inputText);
   });

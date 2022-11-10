@@ -15,7 +15,7 @@ const RelatedVideos = ({ id, tags }: Props) => {
     return (
       <div className="col-span-full lg:col-auto max-h-[570px] overflow-y-auto">
         {data.map((relatedVideo: IVideo) => (
-          <RelatedVideo relatedVideo={relatedVideo} />
+          <RelatedVideo relatedVideo={relatedVideo} key={relatedVideo.id} />
         ))}
       </div>
     );
