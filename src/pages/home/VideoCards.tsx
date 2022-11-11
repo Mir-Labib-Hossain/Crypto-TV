@@ -1,13 +1,11 @@
-import { useState } from "react";
 import { useAppSelector } from "../../app/hooks";
 import { useVideosQuery } from "../../services/videoApi";
 import Pagination from "./Pagination";
 import VideoCard from "./VideoCard";
 
 const VideoCards = () => {
-  const { selectedTags, searched } = useAppSelector((state) => state.filter);
+  const { selectedTags, searched, currentPage } = useAppSelector((state) => state.filter);
   const { data } = useVideosQuery({ selectedTags, searched });
-  const [currentPage, setCurrentPage] = useState(1);
 
   const number = 8; // number to show in a single page
   const start = currentPage * number - number;
@@ -24,7 +22,7 @@ const VideoCards = () => {
           </div>
         </section>
       </section>
-      {data && data.length > 5 && <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalPage={Math.ceil(data.length / number)} />}
+      {data && data.length > number && <Pagination currentPage={currentPage} totalPage={Math.ceil(data.length / number)} />}
     </>
   );
 };

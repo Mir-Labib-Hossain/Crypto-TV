@@ -20,12 +20,9 @@ const videoApi = baseApiSlice.injectEndpoints({
     videos: build.query<IVideos, IVideosParams>({
       query: ({ selectedTags, searched }) => {
         let query = "";
-        query += selectedTags?.length > 0 && selectedTags.map((tag: string) => `tags_like=${tag}`).join("&");
-        query += searched && `&q=${searched}`;
-        console.log("Videos api called.");
-        
-        // return `/videos?_limit=8&${query}`;
-        return `/videos?&${query}`;
+        if (selectedTags?.length > 0) query += selectedTags.map((tag: string) => `tags_like=${tag}`).join("&");
+        if (searched) query += `&q=${searched}`;
+        return `/videos?${query}`;
       },
     }),
 
@@ -41,6 +38,8 @@ const videoApi = baseApiSlice.injectEndpoints({
         return `/videos?${query}`;
       },
     }),
+    // update likes
+    
   }),
 });
 
