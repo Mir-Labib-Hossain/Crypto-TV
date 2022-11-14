@@ -12,6 +12,7 @@ interface IVideoParams {
 interface IRelatedVideosParams {
   videoId: number;
   tags: string[];
+  author?: string;
 }
 
 interface IUpdateLike {
@@ -49,9 +50,14 @@ const videoApi = baseApiSlice.injectEndpoints({
 
     // fetch related video
     relatedVideos: build.query<IVideos, IRelatedVideosParams>({
-      query: ({ videoId, tags }: IRelatedVideosParams) => {
-        const query = tags?.length > 0 ? tags.map((tag: string) => `tags_like=${tag}`).join("&") + `&id_ne=${videoId}` : "";
-        return `/videos?${query}`;
+      query: ({ videoId, tags, author }: IRelatedVideosParams) => {
+        let query = "";
+        console.log(author);
+
+        if (author) query = `author_like=${author}`;
+        else query = tags?.length > 0 ? tags.map((tag: string) => `tags_like=${tag}`).join("&") : "";
+
+        return `/videos?${query}&id_ne=${videoId}`;
       },
     }),
 

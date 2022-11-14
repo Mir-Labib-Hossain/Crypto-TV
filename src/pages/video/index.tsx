@@ -7,7 +7,8 @@ import RelatedVideos from "./RelatedVideos";
 import VideoPlayer from "./VideoPlayer";
 
 const Video = () => {
-  const { videoId } = useParams();
+  const { videoId, author: authorParam } = useParams();
+
   const { data } = useVideoQuery({ videoId: videoId! }, { skip: !videoId });
 
   if (data) {
@@ -20,7 +21,7 @@ const Video = () => {
               <VideoPlayer link={link} title={title} />
               <Details id={id} title={title} date={date} description={description} likes={likes} unlikes={unlikes} />
             </div>
-            <RelatedVideos id={id} tags={tags} />
+            <RelatedVideos id={id} tags={tags} author={authorParam} />
           </div>
         </div>
       </section>

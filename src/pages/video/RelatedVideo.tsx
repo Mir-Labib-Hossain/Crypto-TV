@@ -20,7 +20,7 @@ const RelatedVideo = ({ relatedVideo }: Props) => {
         <Link to={`/video/${id}`}>
           <p className="text-slate-900 text-sm font-semibold">{title}</p>
         </Link>
-        <Link to={`/video/${id}`} className="text-gray-400 text-xs mt-2 hover:text-gray-600">
+        <Link to={`/video/${id}/${author}`} className="text-gray-400 text-xs mt-2 hover:text-gray-600">
           {author}
         </Link>
         <p className="text-gray-400 text-xs mt-1">

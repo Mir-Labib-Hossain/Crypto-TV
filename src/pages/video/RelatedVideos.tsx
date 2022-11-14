@@ -4,10 +4,11 @@ import RelatedVideo from "./RelatedVideo";
 type Props = {
   id: number;
   tags: string[];
+  author?: string;
 };
 
-const RelatedVideos = ({ id, tags }: Props) => {
-  const { data, isLoading, isSuccess, isError, error } = useRelatedVideosQuery({ videoId: id, tags: tags });
+const RelatedVideos = ({ id, tags, author }: Props) => {
+  const { data, isLoading, isError, error } = useRelatedVideosQuery({ videoId: id, tags, author });
 
   if (isLoading) return <h1>Loading</h1>;
   else if (isError) return <h1>{JSON.stringify(error)}</h1>;
