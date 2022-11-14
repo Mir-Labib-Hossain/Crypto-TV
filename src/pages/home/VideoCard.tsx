@@ -19,7 +19,7 @@ const VideoCard = ({ details }: Props) => {
 
         <div className="flex flex-row mt-2 gap-2">
           <Link to={`/video/${id}/${author}`} className="shrink-0">
-            <img src={avatar} className="rounded-full h-6 w-6" alt="Learn with Sumit" />
+            <img src={avatar} className="rounded-full h-6 w-6" alt={author} />
           </Link>
 
           <div className="flex flex-col">

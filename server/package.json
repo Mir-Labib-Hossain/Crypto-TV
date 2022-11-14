@@ -1,6 +1,5 @@
 {
-    "name": "lws-json-server-todos",
-    "description": "Example in memory videos api with json-server by Learn with Sumit",
+    "name": "json-server-crypto",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
@@ -9,6 +8,6 @@
     "dependencies": {
         "json-server": "^0.17.0"
     },
-    "keywords": [],
-    "author": "Sumit Saha, Learn with Sumit"
+    "keywords": []
+    
 }

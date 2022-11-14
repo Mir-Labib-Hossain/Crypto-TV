@@ -2,288 +2,221 @@
   "videos": [
     {
       "id": 1,
-      "title": "যে ১০ টি ভুল বিগিনার রিয়্যাক্ট ডেভেলপাররা করে থাকেন",
-      "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+      "title": "How To Be A Crypto Millionaire By 2030 | w/ BitBoy Crypto",
+      "description": "We've all seen the dozens of headlines this past year of people investing in crypto and 100x'ing their initial investment. While that might seem like a short-term unicorn event it's not unlikely in the long term. On this episode, we break down how to become a crypto millionaire by 2030; including strategy and biggest mistakes you could make.",
+      "author": "Paul Barron Network",
+      "avatar": "https://pbs.twimg.com/profile_images/1352374495290523651/GfCn114m_400x400.jpg",
       "date": "May 10, 2022",
       "duration": "10:12",
       "views": 1000,
-      "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
-      "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg",
-      "tags": [
-        "javascript",
-        "react",
-        "tips"
-      ],
+      "link": "https://www.youtube-nocookie.com/embed/qq7PMyP7MBo",
+      "thumbnail": "https://i.ytimg.com/vi/qq7PMyP7MBo/maxresdefault.jpg",
+      "tags": ["Paul Barron Network", "How to", "Tips"],
       "likes": 14323,
       "unlikes": 30
     },
     {
       "id": 2,
-      "title": "VS Code Snippets - Boost your productivity with User Snippets",
-      "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+      "title": "How Cryptocurrency ACTUALLY works.",
+      "description": "Bitcoin, Dogecoin, Ethereum, NFT's, all explained in one simple guide!  Do consider subscribing if you enjoyed! It would make my day if you could also follow me on: 🌈 Instagram: https://goo.gl/OUqBBa",
+      "author": "Mrwhosetheboss",
+      "avatar": "https://yt3.ggpht.com/Ikb1C4ih2VMvfjma8OO5b39JnHL2CQcQgksB_I7TM-gGA3ERTY589OeLKCYyRQQO0nkE54-f=s900-c-k-c0x00ffffff-no-rj",
       "date": "April 25, 2022",
       "duration": "10:12",
       "views": 123312,
-      "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
-      "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg",
-      "tags": [
-        "vscode",
-        "tips"
-      ],
+      "link": "https://www.youtube-nocookie.com/embed/rYQgy8QDEBI",
+      "thumbnail": "https://i.ytimg.com/vi/rYQgy8QDEBI/maxresdefault.jpg",
+      "tags": ["Mrwhosetheboss", "How to"],
       "likes": 1580,
       "unlikes": 21
     },
     {
       "id": 3,
-      "title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
-      "description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+      "title": "NFT (Non Fungible Tokens) - কি, কেন এবং কিভাবে - NFT কি বিটকয়েন থেকেও ক্ষমতাবান?",
+      "description": "ইন্টারনেট মার্কেটিং, ডিজিটাল মার্কেটিং এসব জিনিস পত্রে আগ্রহী হলে আমার একাডেমি পেজ টা ঘুরে আসতে পারেন এখান থেকেঃ  https://khalidfarhan.com/academy এই চ্যানেলে আমি মূলত ব্যবসা বাণিজ্য, উদ্যোক্তা জীবন থেকে শুরু করে আমার জীবন বিষয়ক হাবিজাবি সব কিছু নিয়েই কথা বার্তা বলি। তেমন কোন থিম নেই চ্যানেলের। তবে মার্কেটিং বা ব্যবসার কথা বার্তাই বেশি বলা হয়।",
+      "author": "Khalid Farhan",
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQGPVJdK0DNCWA/profile-displayphoto-shrink_800_800/0/1643913840352?e=2147483647&v=beta&t=QTvQ0qrtmg9eIiVMTxhs4KJAJGSzi9axjnL92QCqozs",
       "date": "March 11, 2022",
       "duration": "10:12",
       "views": 423423,
-      "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
-      "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg",
-      "tags": [
-        "tailwind",
-        "css"
-      ],
+      "link": "https://www.youtube-nocookie.com/embed/-y7AeMxnBLg",
+      "thumbnail": "https://i.ytimg.com/vi/-y7AeMxnBLg/maxresdefault.jpg",
+      "tags": ["NFT", "Khalid Farhan", "What is"],
       "likes": 3523,
       "unlikes": 43
     },
     {
       "id": 4,
-      "title": "Debounce Function in JavaScript - JavaScript Job Interview question",
-      "description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
-      "author": "Mr Wosh",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+      "title": "What are NFTs? | CNBC Explains",
+      "description": "Investors have been spending millions of dollars on digital collectibles known as NFTs, or non-fungible tokens. CNBC’s Ryan Browne explains how these crypto-based assets work and why they’ve become so popular.",
+      "author": "CNBC International",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu_rshjHtH2TUdG46zIGsK10aSJxelueTftC4ac8Ino=s900-c-k-c0x00ffffff-no-rj",
       "date": "Jan 06, 2022",
       "duration": "10:12",
       "views": 2423440,
-      "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
-      "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg",
-      "tags": [
-        "debounce",
-        "javascript",
-        "tips"
-      ],
+      "link": "https://www.youtube-nocookie.com/embed/gSLiX1QihEc",
+      "thumbnail": "https://i.ytimg.com/vi/gSLiX1QihEc/maxresdefault.jpg",
+      "tags": ["CNBC International", "What is", "NFT"],
       "likes": 23442,
       "unlikes": 20
     },
     {
       "id": 5,
-      "title": "SASS Tutorial in English - Overview of SASS",
-      "description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+      "title": "FTT and Solana are DEAD To Me (Pivotal Crypto Mindset for Gains)",
+      "description": "Ben is back and with a vengeance! In this week's portfolio video, Ben gives an updates you on his $1K, $5K, $10K, and $25K portfolios, and makes a huge change to his $25K portfolio... FTT and Solana are OUT?! Stay until the end to learn why Ben is ditching those coins, and also to learn what coins he'll replace them with!",
+      "author": "BitBoy Crypto",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu8VlNAFVwFN31yDCJlc-AVW0rLq5SBdxl97wDM_yw=s900-c-k-c0x00ffffff-no-rj",
       "date": "Nov 22, 2021",
       "duration": "10:12",
       "views": 2222220,
-      "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
-      "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg",
-      "tags": [
-        "sass",
-        "css",
-        "ui"
-      ],
+      "link": "https://www.youtube-nocookie.com/embed/JrMOj0x6goI",
+      "thumbnail": "https://sp.rmbl.ws/s8/1/L/c/k/V/LckVf.qR4e-small-FTT-and-Solana-are-DEAD-To-.jpg",
+      "tags": ["BitBoy Crypto", "Down"],
       "likes": 23350,
       "unlikes": 235
     },
     {
-      "id": 7,
-      "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
-      "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "date": "Oct 15, 2021",
-      "duration": "10:12",
-      "views": 100,
-      "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
-      "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
-      "tags": [
-        "tailwind",
-        "css",
-        "ui"
-      ],
-      "likes": 310,
-      "unlikes": -1
-    },
-    {
-      "id": 8,
-      "title": "যে ১০ টি ভুল বিগিনার রিয়্যাক্ট ডেভেলপাররা করে থাকেন",
-      "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
-      "author": "Mr Wosh",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "date": "May 10, 2022",
-      "duration": "10:12",
-      "views": 1000,
-      "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
-      "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg",
-      "tags": [
-        "javascript",
-        "react",
-        "tips"
-      ],
-      "likes": 2178,
-      "unlikes": 24
-    },
-    {
-      "id": 9,
-      "title": "VS Code Snippets - Boost your productivity with User Snippets",
-      "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "date": "April 25, 2022",
-      "duration": "10:12",
-      "views": 123312,
-      "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
-      "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg",
-      "tags": [
-        "vscode",
-        "tips"
-      ],
-      "likes": 23542,
-      "unlikes": 21
-    },
-    {
-      "id": 10,
-      "title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
-      "description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+      "id": 6,
+      "title": "WORST Crypto News Ever | FTX CONTAGION Will Destroy Market (Binance BACKS OUT)",
+      "description": "What's happening with cryptocurrency? Binance will NOT Buy FTX? Let's discuss the latest crypto news for bitcoin, ethereum, altcoins, & MORE! SLAP THE LIKE BUTTON! 👋  Vote Altcoin Daily for Best News Source & Influencer of the Year:",
+      "author": "Altcoin Daily",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu8dEs59-wVCG0vM3TozB1f7LCm1XtjKoNI4YudW=s900-c-k-c0x00ffffff-no-rj",
       "date": "March 11, 2022",
       "duration": "10:12",
       "views": 423423,
-      "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
-      "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg",
-      "tags": [
-        "tailwind",
-        "css"
-      ],
+      "link": "https://www.youtube-nocookie.com/embed/5aHAqK_lGr0",
+      "thumbnail": "https://i.ytimg.com/vi/5aHAqK_lGr0/maxresdefault.jpg",
+      "tags": ["Altcoin Daily", "Down", "Tips"],
       "likes": 35523,
       "unlikes": 43
     },
     {
+      "id": 7,
+      "title": "All about Blockchain | Simply Explained",
+      "description": "Blockchain technology is a decentralized, distributed ledger that stores the record of ownership of digital assets. Any data stored on blockchain is unable to be modified, making the technology a legitimate disruptor for industries like payments, cybersecurity and healthcare",
+      "author": "Apna College",
+      "avatar": "https://yt3.ggpht.com/ihsWXKohHPRkXNqYSaTvO548Lbcc2eCexL3GoYP8JQw_-SzZwA0-xvg2EFVuxUmnU0TDTRc6mW0=s176-c-k-c0x00ffffff-no-rj-mo",
+      "date": "May 10, 2022",
+      "duration": "10:12",
+      "views": 1000,
+      "link": "https://www.youtube-nocookie.com/embed/YJyXfjbBmc8",
+      "thumbnail": "https://i.ytimg.com/vi/YJyXfjbBmc8/maxresdefault.jpg",
+      "tags": ["Apna College", "Blockchain", "What is", "Tips"],
+      "likes": 2178,
+      "unlikes": 24
+    },
+    {
+      "id": 8,
+      "title": "WORST Week in Crypto History 😰 (GET OFF EXCHANGES! 🚨) Major Contagion!",
+      "description": "Hello, fam! Crypto Casey, here 👋 and I'm on a mission to improve people’s lives through #crypto education. In this important video we explore the global news stories affecting the crypto markets this week... Let’s jump in!",
+      "author": "Crypto Casey",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu_U8EXOENkt7M6ZMQl32BVh1PVsq0-XU9ppi1Ll=s900-c-k-c0x00ffffff-no-rj",
+      "date": "April 25, 2022",
+      "duration": "10:12",
+      "views": 123312,
+      "link": "https://www.youtube-nocookie.com/embed/T0jHyVx-YT0",
+      "thumbnail": "https://i.ytimg.com/vi/T0jHyVx-YT0/maxresdefault.jpg",
+      "tags": ["Crypto Casey", "Down"],
+      "likes": 23542,
+      "unlikes": 21
+    },
+    {
+      "id": 9,
+      "title": "FTX is Going to WIPE OUT the Crypto Market!” | CZ Binance Warns of NEXT Exchange to Collapse",
+      "description": "Why is cryptocurrency crashing? What is the most reliable crypto exchange? Sam Bankman-Fried arrest?! Let's discuss the latest crypto news for bitcoin, ethereum, altcoins, & MORE! SLAP THE LIKE BUTTON! 👋 ",
+      "author": "Altcoin Daily",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu8dEs59-wVCG0vM3TozB1f7LCm1XtjKoNI4YudW=s900-c-k-c0x00ffffff-no-rj",
+      "date": "Oct 15, 2021",
+      "duration": "10:12",
+      "views": 100,
+      "link": "https://www.youtube-nocookie.com/embed/G9R5ACKXcFk",
+      "thumbnail": "https://i.ytimg.com/vi/G9R5ACKXcFk/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBaMOATL-K3BmavZjMLUpD9v7vBjQ",
+      "tags": ["Altcoin Daily", "Binance", "Down"],
+      "likes": 310,
+      "unlikes": -1
+    },
+    {
       "id": 11,
-      "title": "Debounce Function in JavaScript - JavaScript Job Interview question",
-      "description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+      "title": "বিটকয়েন - Bitcoin বিষয় টা কি? ক্রিপ্টোকারেন্সি টার ইতিহাস - Should I invest In Bitcoin, Bangladesh?",
+      "description": "এই চ্যানেলে আমি মূলত ব্যবসা বাণিজ্য, উদ্যোক্তা জীবন থেকে শুরু করে আমার জীবন বিষয়ক হাবিজাবি সব কিছু নিয়েই কথা বার্তা বলি। তেমন কোন থিম নেই চ্যানেলের। তবে মার্কেটিং বা ব্যবসার কথা বার্তাই বেশি বলা হয়। ",
+      "author": "Khalid Farhan",
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQGPVJdK0DNCWA/profile-displayphoto-shrink_800_800/0/1643913840352?e=2147483647&v=beta&t=QTvQ0qrtmg9eIiVMTxhs4KJAJGSzi9axjnL92QCqozs",
       "date": "Jan 06, 2022",
       "duration": "10:12",
       "views": 2423440,
-      "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
-      "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg",
-      "tags": [
-        "debounce",
-        "javascript",
-        "tips"
-      ],
+      "link": "https://www.youtube-nocookie.com/embed/suBkKK4GWWE",
+      "thumbnail": "https://i.ytimg.com/vi/suBkKK4GWWE/maxresdefault.jpg",
+      "tags": ["Khalid Farhan", "What is", "Bitcoin"],
       "likes": 23442,
       "unlikes": 20
     },
     {
       "id": 12,
-      "title": "SASS Tutorial in English - Overview of SASS",
-      "description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
-      "author": "Bit Boy Crypto",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "date": "Nov 22, 2021",
+      "title": "What is Bitcoin? 🚀 (Ultimate Beginners' Guide!) - How it Works 💻 & Why it Will Hit $100k 🤑",
+      "description": "This is a video guide for beginners about what bitcoin is, how bitcoin works, and the bitcoin value.",
+      "author": "Crypto Casey",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu_U8EXOENkt7M6ZMQl32BVh1PVsq0-XU9ppi1Ll=s900-c-k-c0x00ffffff-no-rj",
+      "date": "April 25, 2022",
       "duration": "10:12",
-      "views": 2222220,
-      "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
-      "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg",
-      "tags": [
-        "sass",
-        "css",
-        "ui"
-      ],
+      "views": 123312,
+      "link": "https://www.youtube-nocookie.com/embed/scZBwQW7h0E",
+      "thumbnail": "https://i.ytimg.com/vi/scZBwQW7h0E/maxresdefault.jpg",
+      "tags": ["Crypto Casey", "What is", "Bitcoin", "Tips"],
       "likes": 93250,
       "unlikes": 35
     },
     {
       "id": 13,
-      "title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 5",
-      "description": "In this React Router DOM v6 Bangla tutorial, you will learn how to install react router dom 6, what are the breaking changes in react router 6, difference between react router 6 vs 5, how to upgrade from react router v5 to react router v6. ",
-      "author": "Learn with Sumit",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "date": "Nov 08, 2021",
+      "title": "My $10 Million Crypto Portfolio REVEALED (Shocking Holdings)",
+      "description": "Everyone wants to know what is in my personal crypto portfolio. Sometimes I wonder about this myself. If you watched my appearance on Graham Stephan’s podcast you would have discovered that sometimes even I have a hard time figuring it out. I decided it was time to pull all my wallets together and show you, the BitSquad exactly what I own. We are going where no other YouTuber has ever gone before. ",
+      "author": "BitBoy Crypto",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu8VlNAFVwFN31yDCJlc-AVW0rLq5SBdxl97wDM_yw=s900-c-k-c0x00ffffff-no-rj",
+      "date": "Nov 22, 2021",
       "duration": "10:12",
-      "views": 4230234,
-      "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
-      "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg",
-      "tags": [
-        "react",
-        "router",
-        "javascript"
-      ],
+      "views": 2222220,
+      "link": "https://www.youtube-nocookie.com/embed/mvpHKabs664",
+      "thumbnail": "https://i.ytimg.com/vi/mvpHKabs664/hq720.jpg",
+      "tags": ["BitBoy Crypto", "Binance", "Bitcoin"],
       "likes": 7325,
       "unlikes": 20
-    },
-    {
-      "id": 14,
-      "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
-      "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
-      "author": "Bit Boy Crypto",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "date": "Oct 15, 2021",
-      "duration": "10:12",
-      "views": 100,
-      "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
-      "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
-      "tags": [
-        "tailwind",
-        "css",
-        "ui"
-      ],
-      "likes": 10,
-      "unlikes": 0
     }
   ],
   "tags": [
     {
       "id": 1,
-      "title": "javascript"
+      "title": "How to"
     },
     {
       "id": 2,
-      "title": "react"
+      "title": "Tips"
     },
     {
       "id": 3,
-      "title": "tips"
+      "title": "NFT"
     },
     {
       "id": 4,
-      "title": "vscode"
+      "title": "What is"
     },
     {
       "id": 5,
-      "title": "tailwind"
+      "title": "Up"
     },
     {
       "id": 6,
-      "title": "css"
+      "title": "Down"
     },
     {
       "id": 7,
-      "title": "debounce"
+      "title": "Blockchain"
     },
     {
       "id": 8,
-      "title": "sass"
+      "title": "Binance"
     },
     {
       "id": 9,
-      "title": "ui"
-    },
-    {
-      "id": 10,
-      "title": "router"
+      "title": "Bitcoin"
     }
   ]
 }
