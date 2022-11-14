@@ -7,7 +7,7 @@ type Props = {
 };
 
 const RelatedVideos = ({ id, tags }: Props) => {
-  const { data, isLoading, isError, error } = useRelatedVideosQuery({ videoId: id, tags: tags });
+  const { data, isLoading, isSuccess, isError, error } = useRelatedVideosQuery({ videoId: id, tags: tags });
 
   if (isLoading) return <h1>Loading</h1>;
   else if (isError) return <h1>{JSON.stringify(error)}</h1>;

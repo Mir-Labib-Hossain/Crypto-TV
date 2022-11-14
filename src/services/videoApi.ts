@@ -14,6 +14,22 @@ interface IRelatedVideosParams {
   tags: string[];
 }
 
+interface IUpdateLike {
+  videoId: number;
+  likes: number;
+}
+
+interface IUpdateUnlike {
+  videoId: number;
+  unlikes: number;
+}
+
+interface IUpdateReaction {
+  videoId: number;
+  type: string;
+  currentNum: number;
+}
+
 const videoApi = baseApiSlice.injectEndpoints({
   endpoints: (build) => ({
     // fetch videos
@@ -38,9 +54,62 @@ const videoApi = baseApiSlice.injectEndpoints({
         return `/videos?${query}`;
       },
     }),
-    // update likes
-    
+
+    // update reaction
+    updateReaction: build.mutation<IVideo, IUpdateReaction>({
+      query: ({ videoId, type, currentNum }) => {
+        const body =
+          type === "like"
+            ? {
+                likes: currentNum + 1,
+              }
+            : {
+                unlikes: currentNum - 1,
+              };
+        return {
+          url: `/videos/${videoId}`,
+          method: "PATCH",
+          body,
+        };
+      },
+    }),
+
+    // update like
+    updateLike: build.mutation<IVideo, IUpdateLike>({
+      query: ({ videoId, likes }) => {
+        return {
+          url: `/videos/${videoId}`,
+          method: "PATCH",
+          body: {
+            likes: likes,
+          },
+        };
+      },
+    }),
+
+    // update unlike
+    updateUnlike: build.mutation<IVideo, IUpdateUnlike>({
+      query: ({ videoId, unlikes }) => {
+        return {
+          url: `/videos/${videoId}`,
+          method: "PATCH",
+          body: {
+            unlikes: unlikes,
+          },
+        };
+      },
+    }),
+    //   return async (dispatch: any) => {
+    //     const response = await fetch(`http://localhost:9000/todos/${todoId}`, {
+    //       method: "PATCH",
+    //       headers: { "Content-Type": "application/json; charset=UTF-8" },
+    //       body: JSON.stringify({ color: todoColor }),
+    //     });
+
+    //     const todo = await response.json();
+    //     dispatch(setColor(todo.id, todo.color));
+    //   };
   }),
 });
 
-export const { useVideosQuery, useVideoQuery, useRelatedVideosQuery } = videoApi;
+export const { useVideosQuery, useVideoQuery, useRelatedVideosQuery, useUpdateReactionMutation } = videoApi;

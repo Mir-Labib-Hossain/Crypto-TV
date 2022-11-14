@@ -30,6 +30,12 @@ const filterSlice = createSlice({
       state.currentPage = 1;
     },
 
+    reset: (state: IInetialState) => {
+      state.searched = "";
+      state.selectedTags = [];
+      state.currentPage = 1;
+    },
+
     updatePage: (state: IInetialState, { payload }: PayloadAction<number>) => {
       state.currentPage = payload;
     },
@@ -37,4 +43,4 @@ const filterSlice = createSlice({
 });
 
 export default filterSlice.reducer;
-export const { addTag, removeTag, search, updatePage } = filterSlice.actions;
+export const { addTag, removeTag, search, reset, updatePage } = filterSlice.actions;
