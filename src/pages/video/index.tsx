@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { useParams } from "react-router-dom";
-import Error from "../../components/error";
+import Error from "../../components/status/error";
 import { useVideoQuery } from "../../services/videoApi";
 import Details from "./Details";
 import RelatedVideos from "./RelatedVideos";
@@ -27,7 +27,7 @@ const Video = () => {
       </section>
     );
   } else {
-    return <Error />;
+    return <Error message="Something went wrong" />;
   }
 };
 
