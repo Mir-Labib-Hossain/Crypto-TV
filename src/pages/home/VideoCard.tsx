@@ -1,9 +1,13 @@
+
 import { Link } from "react-router-dom";
 import useNumFormatter from "../../hooks/useNumConverter";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css"
 
 type Props = {
   details: IVideo;
 };
+
 
 const VideoCard = ({ details }: Props) => {
   const { id, title, thumbnail, author, avatar, views, date } = details;
@@ -12,14 +16,14 @@ const VideoCard = ({ details }: Props) => {
       <div className="w-full flex flex-col">
         <div className="relative">
           <Link to={`/videos/${id}`}>
-            <img src={thumbnail} className="w-full h-auto" alt="Some videoCard title" />
+            <LazyLoadImage className="w-full h-auto" effect="blur" src={thumbnail} alt={title} loading="lazy" />
           </Link>
           <p className="absolute right-2 bottom-2 bg-gray-900 text-gray-100 text-xs px-1 py">{date}</p>
         </div>
 
         <div className="flex flex-row mt-2 gap-2">
           <Link to={`/videos/${id}/${author}`} className="shrink-0">
-            <img src={avatar} className="rounded-full h-6 w-6" alt={author} />
+            <LazyLoadImage className="rounded-full h-6 w-6" effect="blur" src={avatar} alt={avatar} loading="lazy" />
           </Link>
 
           <div className="flex flex-col">

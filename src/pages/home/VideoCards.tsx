@@ -13,7 +13,7 @@ const VideoCards = () => {
   const start = currentPage * limit - limit;
   const end = currentPage * limit;
 
-  let content: JSX.Element | JSX.Element[];
+  let content: IContent;
 
   if (isLoading) {
     content = (
@@ -27,7 +27,13 @@ const VideoCards = () => {
   } else if (isError) {
     content = <Error message={JSON.stringify(errorMessage)} />;
   } else if (data && data.length > 0) {
-    content = data?.slice(start, end).map((details: IVideo) => <VideoCard details={details} key={details.id} />);
+    content = (
+      <>
+        {data?.slice(start, end).map((details: IVideo) => (
+          <VideoCard details={details} key={details.id} />
+        ))}
+      </>
+    );
   } else {
     content = <Error message="No video found!" />;
   }

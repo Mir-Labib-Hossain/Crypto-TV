@@ -1,3 +1,5 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import { Link } from "react-router-dom";
 import useNumFormatter from "../../hooks/useNumConverter";
 
@@ -11,11 +13,10 @@ const RelatedVideo = ({ relatedVideo }: Props) => {
     <div className="w-full flex flex-row gap-2 items-center mb-4">
       <div className="relative w-[168px] h-[94px] flex-none duration-300 hover:scale-[1.03]">
         <Link to={`/videos/${id}`}>
-          <img src={thumbnail} className="object-cover" alt={title} />
+          <LazyLoadImage className="object-cover" effect="blur" src={thumbnail} alt={title} loading="lazy" />
         </Link>
         <p className="absolute right-2 bottom-2 bg-gray-900 text-gray-100 text-xs px-1 py">{duration}</p>
       </div>
-
       <div className="flex flex-col w-full">
         <Link to={`/videos/${id}`}>
           <p className="text-slate-900 text-sm font-semibold">{title}</p>

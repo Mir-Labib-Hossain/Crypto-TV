@@ -23,3 +23,5 @@ interface ITag {
 }
 
 type ITags = ITag[];
+
+type IContent = JSX.Element;
