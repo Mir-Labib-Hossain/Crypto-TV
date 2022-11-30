@@ -11,7 +11,11 @@
       "views": 1000,
       "link": "https://www.youtube-nocookie.com/embed/qq7PMyP7MBo",
       "thumbnail": "https://i.ytimg.com/vi/qq7PMyP7MBo/maxresdefault.jpg",
-      "tags": ["Paul Barron Network", "How to", "Tips"],
+      "tags": [
+        "Paul Barron Network",
+        "How to",
+        "Tips"
+      ],
       "likes": 14323,
       "unlikes": 30
     },
@@ -26,7 +30,11 @@
       "views": 123312,
       "link": "https://www.youtube-nocookie.com/embed/rYQgy8QDEBI",
       "thumbnail": "https://i.ytimg.com/vi/rYQgy8QDEBI/maxresdefault.jpg",
-      "tags": ["Mrwhosetheboss", "How to","What is"],
+      "tags": [
+        "Mrwhosetheboss",
+        "How to",
+        "What is"
+      ],
       "likes": 1580,
       "unlikes": 21
     },
@@ -41,7 +49,11 @@
       "views": 423423,
       "link": "https://www.youtube-nocookie.com/embed/-y7AeMxnBLg",
       "thumbnail": "https://i.ytimg.com/vi/-y7AeMxnBLg/maxresdefault.jpg",
-      "tags": ["NFT", "Khalid Farhan", "What is"],
+      "tags": [
+        "NFT",
+        "Khalid Farhan",
+        "What is"
+      ],
       "likes": 3523,
       "unlikes": 43
     },
@@ -56,7 +68,11 @@
       "views": 2423440,
       "link": "https://www.youtube-nocookie.com/embed/gSLiX1QihEc",
       "thumbnail": "https://i.ytimg.com/vi/gSLiX1QihEc/maxresdefault.jpg",
-      "tags": ["CNBC International", "What is", "NFT"],
+      "tags": [
+        "CNBC International",
+        "What is",
+        "NFT"
+      ],
       "likes": 23442,
       "unlikes": 20
     },
@@ -71,7 +87,10 @@
       "views": 2222220,
       "link": "https://www.youtube-nocookie.com/embed/JrMOj0x6goI",
       "thumbnail": "https://sp.rmbl.ws/s8/1/L/c/k/V/LckVf.qR4e-small-FTT-and-Solana-are-DEAD-To-.jpg",
-      "tags": ["BitBoy Crypto", "Down"],
+      "tags": [
+        "BitBoy Crypto",
+        "Down"
+      ],
       "likes": 23350,
       "unlikes": 235
     },
@@ -86,7 +105,11 @@
       "views": 423423,
       "link": "https://www.youtube-nocookie.com/embed/5aHAqK_lGr0",
       "thumbnail": "https://i.ytimg.com/vi/5aHAqK_lGr0/maxresdefault.jpg",
-      "tags": ["Altcoin Daily", "Down", "Tips"],
+      "tags": [
+        "Altcoin Daily",
+        "Down",
+        "Tips"
+      ],
       "likes": 35523,
       "unlikes": 43
     },
@@ -101,7 +124,12 @@
       "views": 1000,
       "link": "https://www.youtube-nocookie.com/embed/YJyXfjbBmc8",
       "thumbnail": "https://i.ytimg.com/vi/YJyXfjbBmc8/maxresdefault.jpg",
-      "tags": ["Apna College", "Blockchain", "What is", "Tips"],
+      "tags": [
+        "Apna College",
+        "Blockchain",
+        "What is",
+        "Tips"
+      ],
       "likes": 2178,
       "unlikes": 24
     },
@@ -116,7 +144,10 @@
       "views": 123312,
       "link": "https://www.youtube-nocookie.com/embed/T0jHyVx-YT0",
       "thumbnail": "https://i.ytimg.com/vi/T0jHyVx-YT0/maxresdefault.jpg",
-      "tags": ["Crypto Casey", "Down"],
+      "tags": [
+        "Crypto Casey",
+        "Down"
+      ],
       "likes": 23542,
       "unlikes": 21
     },
@@ -131,7 +162,11 @@
       "views": 100,
       "link": "https://www.youtube-nocookie.com/embed/G9R5ACKXcFk",
       "thumbnail": "https://i.ytimg.com/vi/G9R5ACKXcFk/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBaMOATL-K3BmavZjMLUpD9v7vBjQ",
-      "tags": ["Altcoin Daily", "Binance", "Down"],
+      "tags": [
+        "Altcoin Daily",
+        "Binance",
+        "Down"
+      ],
       "likes": 310,
       "unlikes": -1
     },
@@ -146,7 +181,11 @@
       "views": 2423440,
       "link": "https://www.youtube-nocookie.com/embed/suBkKK4GWWE",
       "thumbnail": "https://i.ytimg.com/vi/suBkKK4GWWE/maxresdefault.jpg",
-      "tags": ["Khalid Farhan", "What is", "Bitcoin"],
+      "tags": [
+        "Khalid Farhan",
+        "What is",
+        "Bitcoin"
+      ],
       "likes": 23442,
       "unlikes": 20
     },
@@ -161,7 +200,12 @@
       "views": 123312,
       "link": "https://www.youtube-nocookie.com/embed/scZBwQW7h0E",
       "thumbnail": "https://i.ytimg.com/vi/scZBwQW7h0E/maxresdefault.jpg",
-      "tags": ["Crypto Casey", "What is", "Bitcoin", "Tips"],
+      "tags": [
+        "Crypto Casey",
+        "What is",
+        "Bitcoin",
+        "Tips"
+      ],
       "likes": 93250,
       "unlikes": 35
     },
@@ -176,7 +220,11 @@
       "views": 2222220,
       "link": "https://www.youtube-nocookie.com/embed/mvpHKabs664",
       "thumbnail": "https://i.ytimg.com/vi/mvpHKabs664/hq720.jpg",
-      "tags": ["BitBoy Crypto", "Binance", "Bitcoin"],
+      "tags": [
+        "BitBoy Crypto",
+        "Binance",
+        "Bitcoin"
+      ],
       "likes": 7325,
       "unlikes": 20
     }

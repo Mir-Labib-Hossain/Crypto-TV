@@ -30,6 +30,18 @@ interface IUpdateReaction {
   type: string;
   currentNum: number;
 }
+interface IAddVideo{
+  title: string;
+description: string;
+author: string;
+avatar: string;
+date: string;
+duration: string;
+views: number;
+link: string;
+thumbnail: string;
+tags: string[];
+}
 
 const videoApi = baseApiSlice.injectEndpoints({
   endpoints: (build) => ({
@@ -80,32 +92,15 @@ const videoApi = baseApiSlice.injectEndpoints({
       },
     }),
 
-    // update like
-    updateLike: build.mutation<IVideo, IUpdateLike>({
-      query: ({ videoId, likes }) => {
-        return {
-          url: `/videos/${videoId}`,
-          method: "PATCH",
-          body: {
-            likes: likes,
-          },
-        };
-      },
+    // add video
+    addVideo: build.mutation<IVideo, IAddVideo>({
+      query: (data) => ({
+        url: `/videos`,
+        method: "POST",
+        body: data,
+      }),
     }),
-
-    // update unlike
-    updateUnlike: build.mutation<IVideo, IUpdateUnlike>({
-      query: ({ videoId, unlikes }) => {
-        return {
-          url: `/videos/${videoId}`,
-          method: "PATCH",
-          body: {
-            unlikes: unlikes,
-          },
-        };
-      },
-    }),   
   }),
 });
 
-export const { useVideosQuery, useVideoQuery, useRelatedVideosQuery, useUpdateReactionMutation } = videoApi;
+export const { useVideosQuery, useVideoQuery, useRelatedVideosQuery, useUpdateReactionMutation, useAddVideoMutation } = videoApi;

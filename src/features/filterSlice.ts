@@ -18,6 +18,7 @@ const filterSlice = createSlice({
   reducers: {
     addTag: (state: IInetialState, { payload }: PayloadAction<string>) => {
       state.selectedTags.push(payload);
+      state.currentPage = 1;
     },
 
     removeTag: (state: IInetialState, { payload }: PayloadAction<string>) => {
