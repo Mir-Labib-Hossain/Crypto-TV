@@ -4,11 +4,8 @@ import TextArea from "../../components/textArea";
 import TextInput from "../../components/textInput";
 import { useAddVideoMutation } from "../../services/videoApi";
 
-type Props = {};
-
-const Form = (props: Props) => {
+const Form = () => {
   const [addVideo] = useAddVideoMutation();
-
   const navigate = useNavigate();
 
   const title = useRef<HTMLInputElement>();
