@@ -21,7 +21,7 @@ interface IUpdateReaction {
   currentNum: number;
 }
 
-interface IAddVideo {
+interface IAddVideoPayload {
   title: string;
   description: string;
   author: string;
@@ -32,6 +32,11 @@ interface IAddVideo {
   link: string;
   thumbnail: string;
   tags: string[];
+}
+
+interface IEditVideoPayloadParam {
+  videoId: number;
+  data: IAddVideoPayload;
 }
 
 const videoApi = baseApiSlice.injectEndpoints({
@@ -84,7 +89,7 @@ const videoApi = baseApiSlice.injectEndpoints({
     }),
 
     // add video
-    addVideo: build.mutation<IVideo, IAddVideo>({
+    addVideo: build.mutation<IVideo, IAddVideoPayload>({
       invalidatesTags: ["videos"],
       query: (data) => ({
         url: `/videos`,
@@ -92,7 +97,17 @@ const videoApi = baseApiSlice.injectEndpoints({
         body: data,
       }),
     }),
+
+    // edit video
+    editVideo: build.mutation<IVideo, IEditVideoPayloadParam>({
+      invalidatesTags: ["videos"],
+      query: ({ videoId, data }) => ({
+        url: `/videos/${videoId}`,
+        method: "PUT",
+        body: data,
+      }),
+    }),
   }),
 });
 
-export const { useVideosQuery, useVideoQuery, useRelatedVideosQuery, useUpdateReactionMutation, useAddVideoMutation } = videoApi;
+export const { useVideosQuery, useVideoQuery, useRelatedVideosQuery, useUpdateReactionMutation, useAddVideoMutation, useEditVideoMutation } = videoApi;

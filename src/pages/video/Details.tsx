@@ -20,7 +20,7 @@ const Details = ({ id, title, date, description, likes, unlikes }: Props) => {
         <h2 className="text-sm leading-[1.7142857] text-slate-600 w-full">Uploaded on {date}</h2>
         <div className="flex">
           <LikeUnlike id={id} prevLikes={likes} prevUnlikes={unlikes} />
-          <EditDeleteBtn />
+          <EditDeleteBtn  id={id}  />
         </div>
       </div>
       <div className="mt-4 text-sm text-[#334155] dark:text-slate-300">{description}</div>
