@@ -5,8 +5,8 @@ interface IVideosParams {
   searched: string;
 }
 
-interface IVideoParams {
-  videoId: string;
+interface IVideoIdParams {
+  videoId: string | number; // string type for useParams(videoId) and number type for props{id}
 }
 
 interface IRelatedVideosParams {
@@ -53,14 +53,14 @@ const videoApi = baseApiSlice.injectEndpoints({
     }),
 
     // fetch single video
-    video: build.query<IVideo, IVideoParams>({
+    video: build.query<IVideo, IVideoIdParams>({
       providesTags: (result, error, args) => [
         {
           type: "video",
           id: args.videoId,
         },
       ],
-      query: ({ videoId }: IVideoParams) => `/videos/${videoId}`,
+      query: ({ videoId }: IVideoIdParams) => `/videos/${videoId}`,
     }),
 
     // fetch related video
@@ -126,7 +126,17 @@ const videoApi = baseApiSlice.injectEndpoints({
         body: data,
       }),
     }),
+
+    // delete vide
+    // add video
+    deleteVideo: build.mutation<void, IVideoIdParams>({
+      invalidatesTags: ["videos"],
+      query: ({ videoId }) => ({
+        url: `/videos/${videoId}`,
+        method: "DELETE",
+      }),
+    }),
   }),
 });
 
-export const { useVideosQuery, useVideoQuery, useRelatedVideosQuery, useUpdateReactionMutation, useAddVideoMutation, useEditVideoMutation } = videoApi;
+export const { useVideosQuery, useVideoQuery, useRelatedVideosQuery, useUpdateReactionMutation, useAddVideoMutation, useEditVideoMutation, useDeleteVideoMutation } = videoApi;
