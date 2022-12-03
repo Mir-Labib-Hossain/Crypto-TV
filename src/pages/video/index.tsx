@@ -24,6 +24,8 @@ const Video = () => {
     return <Error message={JSON.stringify(errorMessage)} />;
   } else if (data && data.id) {
     const { id, title, description, author, avatar, date, duration, views, link, thumbnail, tags, likes, unlikes } = data;
+    console.log(data);
+    
     return (
       <section className="pt-6 pb-20">
         <div className="mx-auto max-w-7xl px-2 pb-20 min-h-[400px]">

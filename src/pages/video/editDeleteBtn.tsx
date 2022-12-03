@@ -6,7 +6,7 @@ type Props = {
   id: number;
 };
 
-const EditDeleteBtn = ({id}: Props) => {
+const EditDeleteBtn = ({ id }: Props) => {
   return (
     <div className="flex gap-6 w-full justify-end">
       <div className="flex gap-1">

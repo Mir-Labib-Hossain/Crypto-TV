@@ -54,23 +54,42 @@ const videoApi = baseApiSlice.injectEndpoints({
 
     // fetch single video
     video: build.query<IVideo, IVideoParams>({
+      providesTags: (result, error, args) => [
+        {
+          type: "video",
+          id: args.videoId,
+        },
+      ],
       query: ({ videoId }: IVideoParams) => `/videos/${videoId}`,
     }),
 
     // fetch related video
     relatedVideos: build.query<IVideos, IRelatedVideosParams>({
+      providesTags: (result, error, args) => [
+        {
+          type: "relatedVideos",
+          id: args.videoId,
+        },
+      ],
       query: ({ videoId, tags, author }: IRelatedVideosParams) => {
         let query = "";
-
-        if (author) query = `author_like=${author}`;
-        else query = tags?.length > 0 ? tags.map((tag: string) => `tags_like=${tag}`).join("&") : "";
-
+        if (author) {
+          query = `author_like=${author}`;
+        } else {
+          query = tags?.length > 0 ? tags.map((tag: string) => `tags_like=${tag}`).join("&") : "";
+        }
         return `/videos?${query}&id_ne=${videoId}`;
       },
     }),
 
     // update reaction
     updateReaction: build.mutation<IVideo, IUpdateReaction>({
+      invalidatesTags: (result, error, args) => [
+        {
+          type: "video",
+          id: args.videoId,
+        },
+      ],
       query: ({ videoId, type, currentNum }) => {
         const body =
           type === "like"
@@ -100,7 +119,7 @@ const videoApi = baseApiSlice.injectEndpoints({
 
     // edit video
     editVideo: build.mutation<IVideo, IEditVideoPayloadParam>({
-      invalidatesTags: ["videos"],
+      invalidatesTags: ["videos", "relatedVideos"],
       query: ({ videoId, data }) => ({
         url: `/videos/${videoId}`,
         method: "PUT",

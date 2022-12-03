@@ -1,28 +1,19 @@
-import { useEffect, useState } from "react";
 import LikeIcon from "../../assets/like.svg";
 import UnikeIcon from "../../assets/unlike.svg";
 import { useUpdateReactionMutation } from "../../services/videoApi";
 
 type Props = {
   id: number;
-  prevLikes: number;
-  prevUnlikes: number;
+  likes: number;
+  unlikes: number;
 };
 
-const LikeUnlike = ({ id, prevLikes, prevUnlikes }: Props) => {
+const LikeUnlike = ({ id, likes, unlikes }: Props) => {
   const [updateReaction] = useUpdateReactionMutation();
-  const [likes, setLikes] = useState(prevLikes);
-  const [unlikes, setUnlikes] = useState(prevUnlikes);
 
-  const handleUpdateReaction = async (type: string, currentNum: number) => {
-    const response = await updateReaction({ videoId: id, type, currentNum }).unwrap();
-    if (response) type === "like" ? setLikes(response.likes) : setUnlikes(response.unlikes);
+  const handleUpdateReaction = (type: string, currentNum: number) => {
+    updateReaction({ videoId: id, type, currentNum }).unwrap();
   };
-
-  useEffect(() => {
-    setLikes(prevLikes);
-    setUnlikes(prevUnlikes);
-  }, [prevLikes, prevUnlikes]);
 
   return (
     <div className="flex gap-10 w-48">
